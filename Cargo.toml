@@ -8,6 +8,8 @@ description = "NIST 2025 compliant password and field validation for authenticat
 repository = "https://github.com/pleme-io/pleme-auth-validators"
 homepage = "https://github.com/pleme-io/pleme-auth-validators"
 readme = "README.md"
+keywords = ["validation", "password", "nist", "authentication", "security"]
+categories = ["authentication"]
 
 [dependencies]
 thiserror = "1.0"
