@@ -1,0 +1,16 @@
+[package]
+name = "pleme-auth-validators"
+version = "0.1.0"
+edition = "2021"
+authors = ["Pleme Team"]
+license = "MIT"
+description = "NIST 2025 compliant password and field validation for authentication"
+repository = "https://github.com/pleme-io/pleme-auth-validators"
+homepage = "https://github.com/pleme-io/pleme-auth-validators"
+readme = "README.md"
+
+[dependencies]
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+
+
